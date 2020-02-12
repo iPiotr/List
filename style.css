@@ -1,19 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box
-}
-
 html {
   font-family: sans-serif;
   font-size: 1rem;
   color: #444;
-}
-
-#todo {
-  max-width: 450px;
-  margin: 2rem auto;
-  padding: 0 1rem;
 }
 
 form {
@@ -30,22 +18,8 @@ button {
   border-radius: 4px;
 }
 
-button {
-  cursor: pointer;
-  background: #007bff;
-  color: white;
-  border: 2px solid #007bff;
-  margin: 0 .5rem;
-}
-
 [type="text"] {
   width: 100%;
-}
-
-[type="text"]:active,
-[type="text"]:focus {
-  outline: 0;
-  border: 2px solid #007bff;
 }
 
 [type="checkbox"] {
@@ -80,10 +54,4 @@ li span {
 
 li span:hover {
   background: rgba(179, 215, 255, 0.52);
-}
-
-li span:focus {
-  outline: 0;
-  border: 2px solid #007bff;
-  background: rgba(179, 207, 255, 0.52)
 }
